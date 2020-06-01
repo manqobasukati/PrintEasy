@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>DesignStudio</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='libraries/css/bootstrap.css')}}"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='custom/css/index.css')}}"/>
+        <script src="{{ url_for('static', filename='libraries/js/vue.js') }}"></script>
+        <script src="{{ url_for('static', filename='libraries/js/vuex.js')}}"></script>
+        <script src="{{ url_for('static', filename='libraries/js/vue-router.js')}}"></script>
+        <script src="{{ url_for('static', filename='libraries/js/fabric.js')}}"></script>
+        <script src="{{ url_for('static', filename='libraries/js/FileSaver.js')}}"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="app">
+                <home-component/>
+            </div>
+        </div>
+    </body>
+    <script src="{{ url_for('static', filename='custom/js/support/useful_functions.js')}}"></script> 
+    <script src="{{ url_for('static', filename='custom/js/support/serverHandler.js')}}"></script> 
+    <script src="{{ url_for('static', filename='custom/js/support/userSupport.js')}}" ></script>
+    <script src="{{ url_for('static', filename='custom/js/support/canvasSupport.js')}}" ></script>
+    <script src="{{ url_for('static', filename='custom/js/support/productTypes.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/support/store.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/home_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/assets_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/object_views_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/colors_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/nav_bar_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/images_objects_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/components/design_studio_components/canvas_component.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/support/router.js')}}"></script>
+    <script src="{{ url_for('static', filename='custom/js/support/main.js')}}"></script>
+</html>

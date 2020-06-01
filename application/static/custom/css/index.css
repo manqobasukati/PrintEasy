@@ -1,0 +1,8 @@
+body>div.container-fluid{
+    padding-right:0%;
+    padding-left: 0%;
+}
+
+div.home-component div.content{
+    margin:10px;
+}
